@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Learning HTML</title>
+    </head>
+    <body>
+        <!-- division -->
+        <!-- used to divide contents into sections -->
+        <div>
+            <h1>Hello world!!</h1>
+            <p>This ia a <small> sample</small> website made while <em> learning </em><strong> HTML.</strong></p>
+        </div>
+        
+        <!-- unordered list -->
+        <div>
+            <ul>
+                <li>student</li>
+                <li>Nit rorkela</li>
+                <li>web development</li>
+                <li>software development</li>
+                <li>enthusiastic</li>
+            </ul>
+        </div>
+
+        <!-- ordered list -->
+        <div>
+            <ol>
+                <li>programming</li>
+                <li>communities</li>
+                <li>open source</li>
+                <li>AR/VR</li>
+                <li>leadership</li>
+            </ol>
+        </div>
+
+        <span>I am a span tag...</span>
+        <br>
+        <hr>
+
+        <img src="imgs/study.jpg" alt="sample pic">
+
+        <br>
+        <br>
+        <br>
+        <hr>
+        <br><br><br>
+        <!-- html forms -->
+        <div>
+            <h1>HTML Forms</h1>
+            <form>
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" placeholder="Username" required>
+                <br><br>
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" placeholder="E-mail" required>
+                <br><br>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" placeholder="Password" required>
+                <br><br>
+                <p>Choose gender:</p>
+                <input type="radio" name="gender" value="male" id="option-1"> 
+                <label for="option-1">Male</label><br>
+                <input type="radio" name="gender" value="female" id="option-2">
+                <label for="option-2">Female</label><br>
+                <input type="radio" name="gender" value="other" id="option-3">
+                <label for="option-3">Other</label><br>
+                <br><br>
+                <label for="question">Security Question: </label>
+                <select name="question" id="question">
+                    <option value="q1">What is your pet name?</option>
+                    <option value="q2">Where did you meet your spouse for the first time?</option>
+                    <option value="q3">Which university did you attend?</option>
+                    <option value="q4">What is your favourite food?</option>
+                    <option value="q5">What is your birthplace?</option>
+                </select>
+                <br><br>
+                <label for="answer">Security question answer: </label>
+                <input type="text" name="answer" id="answer">
+                <br><br>
+                <label for="comments">Comments:</label><br>
+                <textarea name="comments" id="comments" cols="30" rows="10" placeholder="Type your comments here..."></textarea>
+                <br><br>
+                <input type="submit" value="Submit">
+                <br><br><br><br><br><br><br>
+            </form>
+        </div>
+
+        
+    </body>
+</html>
