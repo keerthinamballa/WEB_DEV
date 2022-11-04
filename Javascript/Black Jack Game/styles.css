@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #22551d;
+    font-family: Verdana, sans-serif;
+}
+
+h1{
+    text-align: center;
+    margin: 50px 0;
+    font-size: 60px;
+    color: #b59008;
+}
+
+.content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    text-align: center;
+}
+
+.content h4{
+    margin: 25px 0;
+    font-size: 25px;
+}
+
+.content p{
+    margin: 15px 0;
+    color: #ffffff;
+}
+
+#start{
+    margin-top: 30px;
+    padding: 15px 20px;
+    font-size: 25px;
+    border: 2px solid #b59008;
+    color: #22551d;
+    background-color: #b59008;
+    font-weight: 600;
+}
+
+#new-card{
+    margin-top: 15px;
+    padding: 15px 30px;
+    font-size: 25px;
+    border: 2px solid #b59008;
+    color: #22551d;
+    background-color: #b59008;
+    font-weight: 600;
+}
